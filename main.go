@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
-	f.HelpReader()
+	// f.HelpReader()
+	f.HelpCopy()
 }
