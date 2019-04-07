@@ -6,6 +6,7 @@ func main() {
 	// OSStdin()
 	// FileCopy()
 	// HTTPCopyStdin()
+	// BufferRead()
 
-	BufferRead()
+	ReadPos()
 }
