@@ -1,5 +1,7 @@
 package main
 
+import "os"
+
 func main() {
 	// HelpReader()
 	// HelpCopy()
@@ -8,6 +10,15 @@ func main() {
 	// HTTPCopyStdin()
 	// BufferRead()
 	// ReadPos()
+	// EndiannessConvert()
 
-	EndiannessConvert()
+	file, err := os.Open("lenna.png")
+	if err != nil {
+		panic(err)
+	}
+	defer file.Close()
+	chunks := readChunks(file)
+	for _, chunk := range chunks {
+		dumpChunk(chunk)
+	}
 }
