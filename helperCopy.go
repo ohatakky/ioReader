@@ -1,4 +1,4 @@
-package f
+package main
 
 import (
 	"io"

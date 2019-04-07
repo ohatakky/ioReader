@@ -1,4 +1,4 @@
-package f
+package main
 
 // 引数pは読み込んだデータを貯めるバッファ
 // type Reader interface {
