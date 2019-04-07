@@ -7,6 +7,7 @@ func main() {
 	// FileCopy()
 	// HTTPCopyStdin()
 	// BufferRead()
+	// ReadPos()
 
-	ReadPos()
+	EndiannessConvert()
 }
