@@ -7,5 +7,6 @@ import (
 func main() {
 	// f.HelpReader()
 	// f.HelpCopy()
-	f.OSStdin()
+	// f.OSStdin()
+	f.FileCopy()
 }
