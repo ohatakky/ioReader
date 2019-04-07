@@ -5,6 +5,7 @@ func main() {
 	// HelpCopy()
 	// OSStdin()
 	// FileCopy()
+	// HTTPCopyStdin()
 
-	HTTPCopyStdin()
+	BufferRead()
 }
